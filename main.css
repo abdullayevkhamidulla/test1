@@ -27,3 +27,35 @@ li a{
 ul li{
     font-size: 40px;
 }
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-wrapper{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+}
+.main-text h1{
+    font-size: 55px;
+}
+.main-text button{
+    width: 253px;
+    height: 82;
+    border: none;
+    background-color: #9500FF;
+    border-radius: 30px;
+    color: white;
+
+}
