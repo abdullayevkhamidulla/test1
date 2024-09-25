@@ -2,16 +2,28 @@
     margin: 0;
     
 }
-nav ul {
+nav{
     width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul {
+    width: 70%;
     height: auto;
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 20px;
+    list-style-type: none;
   
 }
-ul a{
-    text-decoration: none;
+li a{
+    font-size: 26px;
+   text-decoration: none;
+}
+ul li{
+    font-size: 40px;
 }
